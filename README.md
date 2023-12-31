@@ -19,7 +19,7 @@ pip install requirements.txt
 ```
 
 ## How to use 
-1. Make sure path still .\Coraline_challenge
+1. Make sure the path is still .\Coraline_challenge
 ``` bash
 #Make sure you still in Coraline_challenge by
 pwd
@@ -39,7 +39,7 @@ This part will call script name 'Python_Script.py' that will ingest data from Ex
 #Run SQL Script
 psql -h localhost -d challenge -U root -f SQL_Script.sql
 
-#After that command system will ask password and then past this password
+#After that command system will ask password and then paste this password
 DataEngineer_2023
 
 ```
