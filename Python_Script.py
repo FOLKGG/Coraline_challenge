@@ -64,12 +64,6 @@ for index, row in df.iterrows():
         (row["ID"], row["Date"], row["Region"], row["City"], row["Category"], row["Product"], row["Qty"], row["UnitPrice"], row["TotalPrice"]),
     )
 
-#Create cat_reg table with call sql script
-with open("SQL_Script.sql", "r") as sql_file:
-    sql_commands = sql_file.read()
-
-cursor.execute(sql_commands)
-
 #Commit
 conn.commit()
 

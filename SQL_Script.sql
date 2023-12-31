@@ -1,4 +1,4 @@
-CREATE TABLE cat_reg AS
+CREATE TABLE IF NOT EXISTS cat_reg AS
 Select category AS Category,
        CAST(SUM(totalprice) FILTER (WHERE region = 'East') AS integer) AS East,
        CAST(SUM(totalprice) FILTER (WHERE region = 'West') AS integer) AS West,
