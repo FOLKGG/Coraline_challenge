@@ -1,0 +1,4 @@
+# Requirements for Python libraries
+pandas
+psycopg2
+configparser
